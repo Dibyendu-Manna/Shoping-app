@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  width: 95%;
+  background-color: rgb(224, 155, 198);
+  height: 80px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+nav h1 {
+  margin: 25px;
+  font-size: 30px;
+}
+h2 {
+margin-left: 50px;
+
+margin-top: 20px;
+}
+ .ammount{
+  color: rgb(0, 102, 255);
+  font-size: 20px;
+}
+.signup {
+  background-color: orange;
+}
+.login {
+  background-color: green;
+}
+.cart,
+.fetchorder {
+  background-color: rgb(36, 132, 196);
+}
+button {
+  width: auto;
+  height: 40px;
+  color: white;
+  font-weight: 20px;
+  padding: 12px 16px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+.card1 img{
+  border-radius: 10px;
+}
+
+.navigation {
+  list-style: none;
+  width: auto;
+
+  margin: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  color: white;
+  font-weight: 50px;
+  gap: 20px;
+}
+
+.card1{
+    height:380px;
+    width:300px;
+    background-color: rgb(198, 196, 196);
+    padding-top:20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.cards{
+  margin-left:50px;
+  display: flex;
+  gap:55px;
+  }
+  .details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    
+}
+.cart{
+  background-color: rgb(7, 171, 7);
+  border-radius: 5px;
+}
+.buttons{
+  display: flex;
+  gap:80px;
+  
+}
+.available{
+  background-color: white;
+  color: black;
+}
+.footer{
+height:200px;
+width:95%;
+background-color:aliceblue;
+border-radius: 10px;
+border:2px solid rgb(0, 115, 255);
+margin-left:50px;
+margin-top: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap:30px;
+}
+.footer p{
+  color: rgb(0, 115, 255);
+  font-size: 30px;
+  }
+  .copyright p{
+    font-size: 30px;
+    color: white;
+  }
+  .copyright{
+    height:70px;
+    width:95%;
+    background-color:rgb(0, 115, 255) ;
+    border-radius:5px;
+    margin:20px 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+  }
